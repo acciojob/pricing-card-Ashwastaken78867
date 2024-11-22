@@ -1,1 +1,68 @@
-/*  your css code here. If applicable */
+/* Main container to center the card on the page */
+.main-container {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally centers the card */
+    align-items: center; /* Vertically centers the card */
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+}
+
+/* Card container styling */
+.card {
+    width: 300px; /* Fixed width */
+    padding: 20px; /* Space inside the card */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center-align text inside the card */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Card image styling */
+.card-image {
+    width: 100%; /* Full width of the card */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Card title styling */
+.card-title {
+    font-size: 24px; /* Larger font size */
+    color: #333; /* Dark gray color */
+    margin: 10px 0; /* Space above and below the title */
+}
+
+/* Card pricing information styling */
+.card-price {
+    font-size: 20px; /* Slightly smaller font size */
+    font-weight: bold; /* Bold text */
+    color: #28a745; /* Green color */
+    margin: 5px 0; /* Small margin above and below */
+}
+
+/* Card description styling */
+.card-description {
+    font-size: 16px; /* Standard font size */
+    color: #555; /* Medium gray color */
+    margin: 10px 0 20px; /* Space above and below the description */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Buy Now button styling */
+.buy-now-btn {
+    padding: 10px 20px; /* Internal padding */
+    background-color: #007BFF; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Standard font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the Buy Now button */
+.buy-now-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
